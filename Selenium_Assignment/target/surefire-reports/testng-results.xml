@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="44005" started-at="2019-04-14T15:39:45Z" finished-at="2019-04-14T15:40:29Z">
+  <suite name="Ace Turtle Assignment" duration-ms="61431" started-at="2019-04-14T16:45:45Z" finished-at="2019-04-14T16:46:46Z">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="44005" started-at="2019-04-14T15:39:45Z" finished-at="2019-04-14T15:40:29Z">
+    <test name="Puma basic scenario" duration-ms="61431" started-at="2019-04-14T16:45:45Z" finished-at="2019-04-14T16:46:46Z">
       <class name="com.aceturtle.qa.tests.Assignment">
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.aceturtle.qa.tests.Assignment@4e04a765]" name="setup" is-config="true" duration-ms="7585" started-at="2019-04-14T15:39:45Z" finished-at="2019-04-14T15:39:52Z">
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.aceturtle.qa.tests.Assignment@783e6358]" name="setup" is-config="true" duration-ms="34228" started-at="2019-04-14T16:45:45Z" finished-at="2019-04-14T16:46:19Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.aceturtle.qa.tests.Assignment@4e04a765]" name="test" duration-ms="36399" started-at="2019-04-14T15:39:52Z" finished-at="2019-04-14T15:40:29Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.aceturtle.qa.tests.Assignment@783e6358]" name="test" duration-ms="27181" started-at="2019-04-14T16:46:19Z" finished-at="2019-04-14T16:46:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- com.aceturtle.qa.tests.Assignment -->
-    </test> <!-- testngTest -->
-  </suite> <!-- softwaretestingmaterial -->
+    </test> <!-- Puma basic scenario -->
+  </suite> <!-- Ace Turtle Assignment -->
 </testng-results>

@@ -1,17 +1,23 @@
 Hello,
 
-This project automates a basic scenario of https.in.puma.com.
+This project automates UI of a basic scenario of https.in.puma.com and api of developer.git.com/v3
 
-This is developed using maven, selenium web driver for chrome and testng.
-The framework is page object model.
+This is developed using maven, selenium web driver for chrome and testng and httpcomponents
+The framework is testng and page object model.
 
-The execution through testng.xml is paraeterised in pom and the paramter for testng file can be passed 
-on the command below, if the project has multiple testng file, for example for smoke and regression, 
+The execution through testng xml file is paraeterised in pom and the paramter for testng file can be passed 
+through maven command, if the project has multiple testng files, for example for smoke , regression and api,
 it can be acieved with this approach.
 
-Command: mvn test -DsuiteXmlFile=testng.xml
+Command for executing UI Automation: mvn test -DsuiteXmlFile=web.xml
+Command for executing API Automation: mvn test -DsuiteXmlFile=api.xml
+(Pre Requiste: Maven setup and JDK 8 should be available with
+This can also be done by executing respective batch files which is in the same folder.
 
-This can also be done by executing execute.bat file which is in the same folder.
+PS: There could have been better code and coding practices but since there was a time contraint where 
+I got few hours to setup framework and code the tests, there could be some glitches. 
+One of them, which I observed (very rare) is the mouse hover on the main menu 
+in puma.com ("Men/Shoes/Running")
 
 Thanks!
 Devendra
