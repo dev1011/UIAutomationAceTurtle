@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Ace Turtle Assignment]">
+  <test thread-count="5" verbose="0" name="Puma basic scenario(failed)">
+    <classes>
+      <class name="com.aceturtle.qa.tests.Assignment">
+        <methods>
+          <include name="setup"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.aceturtle.qa.tests.Assignment -->
+    </classes>
+  </test> <!-- Puma basic scenario(failed) -->
+</suite> <!-- Failed suite [Ace Turtle Assignment] -->

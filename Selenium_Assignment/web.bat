@@ -1,2 +1,2 @@
-mvn test -DsuiteXmlFile=testng.xml
+mvn test -DsuiteXmlFile=web.xml
 PAUSE

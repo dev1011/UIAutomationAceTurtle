@@ -1,0 +1,7 @@
+<suite name="Ace Turtle Assignment">
+    <test name="Git hub API Testing">
+        <classes>
+            <class name="com.aceturtle.qa.api.NegativeAuthentication"/>
+        </classes>
+    </test>
+</suite>
