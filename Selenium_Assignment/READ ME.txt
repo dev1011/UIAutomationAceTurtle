@@ -1,0 +1,17 @@
+Hello,
+
+This project automates a basic scenario of https.in.puma.com.
+
+This is developed using maven, selenium web driver for chrome and testng.
+The framework is page object model.
+
+The execution through testng.xml is paraeterised in pom and the paramter for testng file can be passed 
+on the command below, if the project has multiple testng file, for example for smoke and regression, 
+it can be acieved with this approach.
+
+Command: mvn test -DsuiteXmlFile=testng.xml
+
+This can also be done by executing execute.bat file which is in the same folder.
+
+Thanks!
+Devendra

@@ -1,0 +1,7 @@
+<suite name="Ace Turtle Assignment">
+    <test name="Puma basic scenario">
+        <classes>
+            <class name="com.aceturtle.qa.tests.Assignment"/>
+        </classes>
+    </test>
+</suite>

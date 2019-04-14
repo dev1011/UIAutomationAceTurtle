@@ -1,0 +1,8 @@
+com\aceturtle\qa\pages\ProductListPage.class
+com\aceturtle\qa\pages\CheckOutPage.class
+com\aceturtle\qa\pages\HomePage.class
+com\aceturtle\qa\pages\HomePage$SubMenuItem1.class
+com\aceturtle\qa\pages\ProductDescriptionPage.class
+com\aceturtle\qa\pages\HomePage$MainMenuItems.class
+com\aceturtle\qa\base\TestBase.class
+com\aceturtle\qa\pages\HomePage$SubMenuItem2.class
